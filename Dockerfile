@@ -1,5 +1,5 @@
 # force platfrom=linux/386 because alpine x64 doesn't support wine32 and LoxoneConfig is win32
-FROM --platform=linux/386 jlesage/baseimage-gui:alpine-3.18-v4.5
+FROM --platform=linux/386 jlesage/baseimage-gui:alpine-3.20-v4
 
 ARG XLANG=de
 
